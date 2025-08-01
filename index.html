@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Girlfriend Day 💖</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <section id="page1" class="page active">
+    <h1>Happy Girlfriend Day 💖</h1>
+    <p>Kita udah jadian selama <span id="daysTogether"></span> hari tauu "<3" </p>
+    <button onclick="nextPage()">Next ➡️</button>
+  </section>
+
+  <section id="page2" class="page hidden">
+    <h2>📩 Kamu dapet surat nih!</h2>
+    <img src="assets/surat.png" alt="Gambar Surat" class="envelope-img"/>
+    <div class="envelope">
+      <button onclick="refuseOpen()" class="button">❌ gamauu</button>
+      <button onclick="acceptOpen()" class="button">📬 mauuu</button>
+    </div>
+  </section>
+
+  <section id="page3" class="page hidden">
+    <img src="assets/pacar-aku.jpg" alt="Foto Doi" class="photo"/>
+    <h2>Untuk yang selalu ada di hati 💌</h2>
+    <p>
+      Hari ini spesial, karena kamu yang spesial.  
+      Makasih ya udah sabar, sayang, dan nemenin aku sejauh ini 💗
+    </p>
+    
+    <p> karena ada kamu—seseorang yang gak pernah lelah ada buat aku. Makasih ya, udah sabar banget ngadepin aku yang seringnya gak jelas, kadang diem, kadang rame sendiri. Makasih udah mau nemenin tiap proses aku, dari yang bingung, takut, sampe akhirnya bisa berdiri lagi. Kamu itu bukan cuma seseorang yang aku sayang, tapi juga yang bikin aku ngerasa pulang. Dan aku beneran bersyukur, bisa ketemu kamu di hidup aku. </p>
+    <audio src="assets/lagu.mp3" autoplay loop></audio>
+    
+    <a href="surat.html" class="button">Balas surat</a>
+
+  </section>
+
+  <footer class="footer">
+    Dibuat dengan cinta oleh Kholili 💘
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
